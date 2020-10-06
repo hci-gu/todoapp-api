@@ -32,3 +32,6 @@ Updates a todo with id `:id` using body payload like:
 }
 ```
 
+> DELETE /todos/:id?key=[YOUR API KEY]
+
+Deletes a todo with id `:id`.
