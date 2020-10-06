@@ -21,4 +21,14 @@ Adds new todo to your todos. Todos should look like:
 }
 ```
 
-> PUT 
+> PUT /todos/:id?key=[YOUR API KEY]
+
+Updates a todo with id `:id` using body payload like:
+
+```json
+{
+  "title": "A title for the todo",
+  "done": false // whether the todos is completed or not.
+}
+```
+
